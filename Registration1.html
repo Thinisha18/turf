@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        form{
+          
+            text-align: center;
+            padding: 20px;
+        }
+        h1{
+
+            text-align: center;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        input:focus {
+  background-color: rgb(241, 151, 205);
+}
+
+
+        body{
+            background-image: url('https://image.freepik.com/free-vector/overlapping-forms-background_23-2148658720.jpg');
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>REGISTRTION FORM</h1>
+
+    <form>
+       
+        <div clas="text">
+            <label>Name</label>
+            <input  type="text"><br><br></div>
+      
+        <label>Age</label>
+        <input type="number"><br><br>
+        <label>Gender</label>
+        <input type="radio"value="Male"Name="1";>
+        <label>Male</label>
+        <input type="radio"value="Female"Name="1";>
+        <label>Female</label><br><br>
+        <label>Phone No</label>
+        <input type="number"><br><br>
+        <label>Username</label>
+        <input type="text"required><br><br>
+        <label>password</label>
+        <input type="password"pattern="(?=.*\d)(/=.*[A-Z]).{8,}"title="must contain at least one number and one uppercaseand at least 8 are more character"required><br><br>
+        <button type ="submit">login</button>
+    </div>
+     </form>
+ 
+</body>
+</html>
